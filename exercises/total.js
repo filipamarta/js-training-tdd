@@ -7,7 +7,9 @@
  */
 
 // Your code:
-
+const total = (array) => {
+    return array.reduce((accumulator, currentValue) => accumulator + currentValue);
+};
 //* Begin of tests
 const assert = require('assert');
 
