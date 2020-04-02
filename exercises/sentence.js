@@ -7,7 +7,10 @@
  */
 
 // Your code:
-
+const sentence = (arr) => {
+    return arr.join(" ");
+    
+};
 //* Begin of tests
 const assert = require('assert');
 

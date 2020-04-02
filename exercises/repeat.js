@@ -8,7 +8,20 @@
  */
 
 // Your code:
+    const repeat = (str, numb) => {
 
+        let result = "";
+
+        while(numb >= 0){
+            if(numb === 0) {
+                return result;
+            }
+            result = result + str;
+            numb--;
+        }
+        console.log(result);
+        return result;
+    };
 //* Begin of tests
 const assert = require('assert');
 
